@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  text-align: center;
+  height: 60px;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator-container {
+  width: 400px;
+  min-height: 80vh;
+  background-color: rgb(193, 190, 187);
+  border-radius: 10px;
+  box-shadow: 2px 2px 7px 0.5px;
+}
+
+.value {
+  width: 370px;
+  min-height: 90px;
+  text-align: right;
+  line-height: 90px;
+  margin: 1rem 1rem;
+  background-color: rgb(221, 227, 225);
+  padding-right: 10px;
+  font-size: 28px;
+  border-radius: 0.3rem;
+  box-shadow: 2px 2px 7px 0.5px;
+}
+
+.buttons-group {
+  height: 450px;
+  margin: 1rem 1rem;
+}
+
+.row {
+  display: grid;
+  place-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 12.5px;
+  margin-bottom: 10px;
+}
+
+.row button {
+  height: 80px;
+  border-radius: 0.3rem;
+  background-color: rgb(221, 227, 225);
+  cursor: pointer;
+  box-shadow: 2px 2px 7px 0.5px;
+}
+
+.buttons-group > :first-child {
+  grid-template-columns: 1fr 1fr 2fr;
+}
