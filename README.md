@@ -2,4 +2,4 @@ The basic calculator web application utilizes HTML, CSS, and JavaScript to creat
 
 Technologies Used: JavaScript, CSS, HTML
 
-Link - 
+Link - https://basiccalculatorproject123.netlify.app/
